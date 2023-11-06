@@ -19,6 +19,7 @@ import 'bootstrap-vue-3/dist/bootstrap-vue-3.css'
 
 
 
+
 const app = createApp(App)
 app.component('EasyDataTable', Vue3EasyDataTable);
 app.use(BootstrapVue3)
