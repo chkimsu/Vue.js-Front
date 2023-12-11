@@ -2,7 +2,8 @@ const { defineConfig } = require('@vue/cli-service')
 const path = require('path')
 
 module.exports = defineConfig({
-  outputDir: path.resolve(__dirname, '../../Backend/public/'),
+  // outputDir: path.resolve(__dirname, './'),
+  // git test
   transpileDependencies: true,
 
   devServer: {
